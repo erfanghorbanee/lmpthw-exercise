@@ -37,5 +37,4 @@ with open(args.file_dir, "r") as file:
             print(f"    {line_number}  {new_line}")
 
     else:
-        for line in file.readlines():
-            print(line, end="")
+        print(file.read())
